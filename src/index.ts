@@ -1,3 +1,9 @@
-let num: number = 123
+// let num: number = 123
+// import './example/basic-type'
+// document.title = 'Alfred-ts'
 
-document.title = 'Alfred'
+// import './example/symbol'
+
+// import './example/interface'
+
+import './example/function'
