@@ -40,15 +40,15 @@
 // 例子中定义了Add类型，指定add类型为Add，但是给add赋的值并不满足Add类型要求，所以报错了
 
 /**************** 2.8.5 可选参数 ***********************/
-type AddFunction = (arg1: number, arg2: number, arg3?: number) => number
-let addFunction: AddFunction
-addFunction = (x: number, y: number) => x + y
-let addFunction1: AddFunction = (x: number, y: number, z: number) => x + y + z
+// type AddFunction = (arg1: number, arg2: number, arg3?: number) => number
+// let addFunction: AddFunction
+// addFunction = (x: number, y: number) => x + y
+// let addFunction1: AddFunction = (x: number, y: number, z: number) => x + y + z
 
 // tslint:disable-next-line: no-console
-console.log(addFunction(1, 2))
+// console.log(addFunction(1, 2))
 // tslint:disable-next-line: no-console
-console.log(addFunction1(1, 2, 3))
+// console.log(addFunction1(1, 2, 3))
 
 /*
 *  类型兼容

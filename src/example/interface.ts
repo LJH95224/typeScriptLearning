@@ -9,17 +9,17 @@
 //   lastName: 'Li',
 // })
 
-interface NameInfo {
-  firstName: string,
-  lastName: string
-}
+// interface NameInfo {
+//   firstName: string,
+//   lastName: string
+// }
 
-const getFullName = ({ firstName, lastName }: NameInfo): string => {
-  return `${firstName} ${lastName}`
-}
+// const getFullName = ({ firstName, lastName }: NameInfo): string => {
+//   return `${firstName} ${lastName}`
+// }
 
 // tslint:disable-next-line: no-console
-console.log(getFullName({firstName: 'Li',  lastName: 'Alfred'}))
+// console.log(getFullName({firstName: 'Li',  lastName: 'Alfred'}))
 
 /**************** 2.6.2可选属性 ***********************/
 
@@ -56,11 +56,11 @@ console.log(getFullName({firstName: 'Li',  lastName: 'Alfred'}))
 // }
 
 // 利用类型兼容性
-const vegetableInfo = {
-  type: 'tomato',
-  color: 'red',
-  size: 2,
-}
+// const vegetableInfo = {
+//   type: 'tomato',
+//   color: 'red',
+//   size: 2,
+// }
 
 // tslint:disable-next-line: no-console
 // console.log(getVegetables(vegetableInfo))

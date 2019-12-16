@@ -5,10 +5,15 @@
     ],
     "jsRules": {},
     "rules": {
-      "quotemark": [false],
-      "semicolon": [false],
+      "quotemark": [true, "single"],
+      "semicolon": [true, "never"],
       "interface-name": [true, "never-prefix"],
       "object-literal-sort-keys": [false],
+      "max-classes-per-file": [false],
+      "trailing-comma":false,
+      "no-empty-interface":false,
+      "variable-name":[false],
+      "no-namespace": [false]
     },
     "rulesDirectory": []
 }
