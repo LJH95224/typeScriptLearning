@@ -32,7 +32,6 @@
 // 显然例子中这个函数并不满足条件，所以报错了。
 
 /**************** 2.8.4 使用类型别名 ***********************/
-
 // type Add = (x: number, y: number) => number;
 // let add: Add = (arg1: string, arg2: string): string => arg1 + arg2;
 // error 不能将类型“(arg1: string, arg2: string) => string”分配给类型“Add”
@@ -45,9 +44,9 @@
 // addFunction = (x: number, y: number) => x + y
 // let addFunction1: AddFunction = (x: number, y: number, z: number) => x + y + z
 
-// tslint:disable-next-line: no-console
+// // tslint:disable-next-line: no-console
 // console.log(addFunction(1, 2))
-// tslint:disable-next-line: no-console
+// // tslint:disable-next-line: no-console
 // console.log(addFunction1(1, 2, 3))
 
 /*
